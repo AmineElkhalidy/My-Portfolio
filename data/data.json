@@ -18,7 +18,7 @@
     "id": "project-three",
     "title": "Responsive Shopping Store App",
     "description": "Responsive shopping store web project, that uses many useful technologies, like swiper css, scrollReveal and animations",
-    "image": "/assets/img/shopping-store.png",
+    "image": "/assets/img/shopping-store.PNG",
     "linkToCode": "https://github.com/AmineElkhalidy/Shop-Store",
     "linkToProject": "https://shop-store.netlify.app/"
 }]
