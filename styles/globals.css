@@ -389,7 +389,7 @@ button{
   width: 300px;
   justify-self: center;
   border-radius: 0.5rem;
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-1-5);
 }
 
 .project__title{
@@ -456,7 +456,7 @@ mark{
 .about__img{
   width: 200px;
   justify-self: center;
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: var(--mb-2-5);
 }
 
 .about__description{
