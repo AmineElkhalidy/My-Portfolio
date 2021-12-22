@@ -3,14 +3,22 @@
     "title": "Responsive Christmas Website",
     "description": "With the christmas and the beginning of the new year, you can choose our website as a mean to buy cool gifts and sending lovely messages to your loved ones.",
     "image": "/assets/img/christmas.png",
-    "linkToCode": "/",
-    "linkToProject": "/"
+    "linkToCode": "https://github.com/AmineElkhalidy/Christmas-Website",
+    "linkToProject": "https://christmas-webapp.netlify.app/"
 },
 {
     "id": "project-two",
     "title": "Advice Generator App",
     "description": "A simple web app created with react js library, which provides you with a new advice whenever you click on Next Advice.",
     "image": "/assets/img/advice.png",
-    "linkToCode": "/",
-    "linkToProject": "/"
+    "linkToCode": "https://github.com/AmineElkhalidy/Advice-generator-app",
+    "linkToProject": "https://advice-generator-application.netlify.app/"
+},
+{
+    "id": "project-three",
+    "title": "Responsive Shopping Store App",
+    "description": "Responsive shopping store web project, that uses many useful technologies, like swiper css, scrollReveal and animations",
+    "image": "/assets/img/shopping-store.png",
+    "linkToCode": "https://github.com/AmineElkhalidy/Shop-Store",
+    "linkToProject": "https://shop-store.netlify.app/"
 }]
