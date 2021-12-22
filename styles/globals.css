@@ -794,6 +794,7 @@ mark{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
   }
 
   .contact{
@@ -816,5 +817,4 @@ mark{
   {
     width: 90%;
   }
-  
 }
