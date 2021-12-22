@@ -7,93 +7,92 @@ const SkillsSection = () => {
             <p className='skills__description' >Things that I am good at :</p>
 
             <div className='skills__container grid' >
-                <div class="skill__info">
-                    <h3 class="skill__name"> <i class='bx bx-code-alt skill__icon'></i> Front-End :</h3>
+                <div className="skill__info">
+                    <h3 className="skill__name"> <i className='bx bx-code-alt skill__icon'></i> Front-End :</h3>
 
-                    <ul class="skill__list">
-                        <li class="skill__item">
+                    <ul className="skill__list">
+                        <li className="skill__item">
                             HTML
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             CSS
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             SASS
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             JavaScript
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             ReactJs
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             NextJs
                         </li>
                     </ul>
                 </div>
 
-                <div class="skill__info">
-                    <h3 class="skill__name"><i class='bx bx-server skill__icon' ></i> Back-End :</h3>
+                <div className="skill__info">
+                    <h3 className="skill__name"><i className='bx bx-server skill__icon' ></i> Back-End :</h3>
     
-                    <ul class="skill__list">
-                        <li class="skill__item">
+                    <ul className="skill__list">
+                        <li className="skill__item">
                             Python
                         </li>
     
-                        <li class="skill__item">
+                        <li className="skill__item">
                             Java
                         </li>
     
-                        <li class="skill__item">
+                        <li className="skill__item">
                             C
                         </li>
     
-                        <li class="skill__item">
+                        <li className="skill__item">
                             Node Js
                         </li>
     
-                        <li class="skill__item">
+                        <li className="skill__item">
                             Golang
                         </li>
                     </ul>
                 </div>
 
-                <div class="skill__info">
-                    <h3 class="skill__name"><i class='bx bx-data skill__icon'></i> Database :</h3>
+                <div className="skill__info">
+                    <h3 className="skill__name"><i className='bx bx-data skill__icon'></i> Database :</h3>
     
-                    <ul class="skill__list">
-                        <li class="skill__item">
+                    <ul className="skill__list">
+                        <li className="skill__item">
                             MySql
                         </li>
     
-                        <li class="skill__item">
+                        <li className="skill__item">
                             MongoDB
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             NoSql
                         </li>
                     </ul>
                 </div>
 
-                <div class="skill__info">
-                    <h3 class="skill__name"><i class='bx bx-book skill__icon'></i> Graphic Design :</h3>
-    
-                    <ul class="skill__list">
-                        <li class="skill__item">
+                <div className="skill__info">
+                    <h3 className="skill__name"><i className='bx bx-book skill__icon'></i> Graphic Design :</h3>
+                    <ul className="skill__list">
+                        <li className="skill__item">
                             Adobe XD
                         </li>
-    
-                        <li class="skill__item">
+
+                        <li className="skill__item">
                             A.Photoshop
                         </li>
 
-                        <li class="skill__item">
+                        <li className="skill__item">
                             A.Illustrator
                         </li>
                     </ul>

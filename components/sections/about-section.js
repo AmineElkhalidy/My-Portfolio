@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const AboutSection = () => {
@@ -7,7 +8,7 @@ const AboutSection = () => {
             <p className='about__title-description' >A few words about me :</p>
 
             <div className='about__container grid'>
-                <img src='/assets/img/avatar.svg' className='about__img' />
+                <Image src='/assets/img/avatar.svg' width={200} height={218} alt='my personal avatar' className='about__img' />
 
                 <div className='about__data' >
                     <p className='about__description' >

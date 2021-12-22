@@ -42,7 +42,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
         <header className='header' id='header' >
             <nav className='nav container' >
                 <a href='#' className='nav__logo' >
-                    <Image className='nav__logo-img' src='/assets/img/Logo.png' width={60} height={60} /> Amine Elkhalidy
+                    <Image className='nav__logo-img' src='/assets/img/Logo.png' alt='Logo image' width={60} height={60} /> Amine Elkhalidy
                 </a>
 
                 <div className='nav__menu' id='nav-menu' >
@@ -73,12 +73,12 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
                     </ul>
 
                     <div className='nav__close' id='nav-close' >
-                        <i class='bx bx-x nav__icon'></i>
+                        <i className='bx bx-x nav__icon'></i>
                     </div>
                 </div>
 
                 <div className='nav__toggle' id='nav-toggle' >
-                    <i class='bx bx-grid-alt nav__icon'></i>
+                    <i className='bx bx-grid-alt nav__icon'></i>
                 </div>
             </nav>
         </header>

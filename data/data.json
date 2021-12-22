@@ -1,4 +1,5 @@
 [{
+    "id": "project-one",
     "title": "Responsive Christmas Website",
     "description": "With the christmas and the beginning of the new year, you can choose our website as a mean to buy cool gifts and sending lovely messages to your loved ones.",
     "image": "/assets/img/christmas.png",
@@ -6,6 +7,7 @@
     "linkToProject": "/"
 },
 {
+    "id": "project-two",
     "title": "Advice Generator App",
     "description": "A simple web app created with react js library, which provides you with a new advice whenever you click on Next Advice.",
     "image": "/assets/img/advice.png",

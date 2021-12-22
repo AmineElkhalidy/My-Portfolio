@@ -13,15 +13,15 @@ const HomeSection = () => {
                         <p className='home__description' >Front-End Developer <br />and Designer</p>
                         <Link href='#projects' >
                             <a className='button home__button' >
-                                View Projects<i class='bx bx-show home__icon'></i>
+                                View Projects<i className='bx bx-show home__icon'></i>
                             </a>
                         </Link>
                     </div>
-                    <div class="cube"></div>
-                        <div class="cube"></div>
-                        <div class="cube"></div>
-                        <div class="cube"></div>
-                    <div class="cube"></div>
+                    <div className="cube"></div>
+                        <div className="cube"></div>
+                        <div className="cube"></div>
+                        <div className="cube"></div>
+                    <div className="cube"></div>
             </div>
             
         </section>

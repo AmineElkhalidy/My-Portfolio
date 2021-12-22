@@ -21,8 +21,8 @@ const ProjectsSection = ({projects}) => {
             <div className='projects__container grid' >
                 <Swiper navigation={true} className='swiper' >
                     {projects.map((project) => (
-                        <SwiperSlide>
-                            <Project project={project} />
+                        <SwiperSlide key={project.id} >
+                            <Project key={project.id} project={project} />
                         </SwiperSlide>
                     ))}
                 </Swiper>
