@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Project = ({project}) => {
     return (
                         <article className="project__card grid">
-                            <Image src={project.image} alt={project.title} width={300} height={150} className="project__img" />
+                            <Image src={project.image} alt={project.title} width={300} height={220} layout='intrinsic' className="project__img" />
 
                             <div className="project__data">
                                 <h3 className="project__title">{project.title}</h3>
