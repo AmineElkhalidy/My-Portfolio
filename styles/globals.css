@@ -388,6 +388,8 @@ button{
 .project__img{
   width: 300px;
   margin-bottom: var(--mb-1-5);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project__title{
