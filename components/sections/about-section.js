@@ -8,7 +8,9 @@ const AboutSection = () => {
             <p className='about__title-description' >A few words about me :</p>
 
             <div className='about__container grid'>
-                <Image className='about__img' src='/assets/img/avatar.svg' width={200} height={218} alt='my personal avatar'  />
+                <div className='about__img'>
+                <Image src='/assets/img/avatar.svg' width={200} height={218} alt='my personal avatar'  />
+                </div>
 
                 <div className='about__data' >
                     <p className='about__description' >

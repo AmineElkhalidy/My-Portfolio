@@ -19,7 +19,7 @@ const ProjectsSection = ({projects}) => {
             <p className='projects__description' >The projects that I have developed.</p>
 
             <div className='projects__container grid' >
-                <Swiper navigation={true} className='swiper' >
+                <Swiper spaceBetween={50} navigation={true} className='swiper' >
                     {projects.map((project) => (
                         <SwiperSlide key={project.id} >
                             <Project key={project.id} project={project} />

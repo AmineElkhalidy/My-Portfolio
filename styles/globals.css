@@ -387,8 +387,6 @@ button{
 
 .project__img{
   width: 300px;
-  justify-self: center;
-  border-radius: 0.5rem;
   margin-bottom: var(--mb-1-5);
 }
 
@@ -723,7 +721,13 @@ mark{
 
   .project__img{
     margin-bottom: 0;
+    width: 450px;
+    margin-left: 3.5rem;
     align-self: center;
+  }
+
+  .project__data{
+    margin-right: 1.5rem;
   }
 
   .about__title-description{
