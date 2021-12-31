@@ -21,4 +21,13 @@
     "image": "/assets/img/shopping-store.PNG",
     "linkToCode": "https://github.com/AmineElkhalidy/Shop-Store",
     "linkToProject": "https://shop-store.netlify.app/"
-}]
+},
+{
+    "id": "project-four",
+    "title": "AI News Reader",
+    "description": "Alan(AI) helps you to get the latest news from different resources, or using terms, or categories.It reads also the articles headlines and open it, you could also interact with Alan and ask him as you wish.",
+    "image": "/assets/img/ai-news-reader.png",
+    "linkToCode": "https://github.com/AmineElkhalidy/AI-Reader",
+    "linkToProject": "https://aireader.netlify.app/"
+}
+]
