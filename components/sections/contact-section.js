@@ -1,6 +1,17 @@
 import React from 'react'
+import { useForm, ValidationError } from '@formspree/react'
+import Link from 'next/link'
+import { useRouter } from 'next/router'
+
+
 
 const ContactSection = () => {
+    const [state, handleSubmit] = useForm("mknygkog");
+    const router = useRouter();
+
+    if(state.succeeded){
+       router.push('/feedback');
+    }
     return (
         <section className='contact section container' id='contact' >
             <h2 className='section__title contact__section-title' >Contact Me</h2>
@@ -49,13 +60,21 @@ const ContactSection = () => {
                     </div>
                 </div>
 
-                <form action="" className="message__form">
+                <form action="https://formspree.io/f/mknygkog" method='POST' onSubmit={handleSubmit} className="message__form">
                     <h3 className="message__title">
                         Send A Message
                     </h3>
-                    <input type="email" placeholder="Write your email" className="message__input" />
-                    <textarea placeholder="Write a message" className="message__textarea" rows="5"></textarea>
-                    <a href="#" className="button message__button">Send Message<i className='bx bx-send message__icon' ></i></a>
+                    <input type="email" id='email' name='email' placeholder="Write your email" className="message__input" />
+                    <ValidationError prefix="Email"
+                                     field="email"
+                                     errors={state.errors} />
+                    <textarea id='message' name='message' placeholder="Write a message" className="message__textarea" rows="5"></textarea>
+                    <ValidationError prefix="Message"
+                                     field="message"
+                                     errors={state.errors} />
+                                     
+                                     
+                    <button type='submit' disabled={state.submitting} className="button message__button" >Send Message<i className='bx bx-send message__icon' ></i></button>
                 </form>
             </div>
         </section>

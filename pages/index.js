@@ -11,7 +11,11 @@ import SkillsSection from '../components/sections/skills-section'
 const Home = (props) => {
 
     useEffect(() => {
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+        handler();
+    }, []);
+
+    const handler = () => {
+        /*=============== CHANGE BACKGROUND HEADER ===============*/
 function scrollHeader(){
     const header = document.getElementById('header')
     // When the scroll is greater than 50 viewport height, add the scroll-header class to the header tag
@@ -45,9 +49,7 @@ function scrollUp(){
     if(this.scrollY >= 350) scrollUp.classList.add('show-scroll'); else scrollUp.classList.remove('show-scroll')
   }
   window.addEventListener('scroll', scrollUp)
-
-  
-    }, []);
+    }
     return (
         <>
             <Layout />

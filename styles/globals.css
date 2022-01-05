@@ -129,6 +129,41 @@ button{
   margin-bottom: var(--mb-2-5);
 }
 
+/*=============== FEEDBACK ===============*/
+.wrapper{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content{
+  padding: 3rem;
+  border-radius: 1rem;
+  border: 2px solid var(--title-color);
+}
+
+.text, .action{
+  font-weight: 600;
+}
+
+.text{
+  margin-bottom: var(--mb-1);
+}
+
+.action{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  cursor: pointer;
+  color: var(--first-color);
+}
+
+.feedback__icon{
+  font-size: 1.5rem;
+}
+
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
@@ -653,6 +688,12 @@ mark{
   .project__img{
     width: 250px;
   }
+
+
+  .content{
+    padding: 1rem;
+    margin: 0 .25rem;
+  }
 }
 
 /* FOR MEDIUM SCREENS */
@@ -678,6 +719,10 @@ mark{
   .message__textarea,
   .message__button{
         width: 60%;
+  }
+
+  .content{
+    margin: 0 1rem;
   }
 }
 
