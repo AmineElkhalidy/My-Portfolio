@@ -164,6 +164,29 @@ button{
   font-size: 1.5rem;
 }
 
+/*=============== SWIPERJS ===============*/
+.swiper-button-next {
+  background-image: url('/assets/img/next.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url('/assets/img/prev.svg');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+
 /*=============== HEADER ===============*/
 .header{
   width: 100%;
@@ -438,6 +461,7 @@ button{
 
 .swiper{
   width: 100%;
+  position: relative;
 }
 
 .project__links{
