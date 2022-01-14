@@ -456,9 +456,12 @@ button{
 
 .project__description{
   padding: 0 1rem;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-0-25);
 }
 
+.project__tools{
+  margin-bottom: var(--mb-1-5);
+}
 .swiper{
   width: 100%;
   position: relative;

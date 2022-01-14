@@ -12,7 +12,7 @@ const Project = ({project}) => {
                             <div className="project__data">
                                 <h3 className="project__title">{project.title}</h3>
                                 <p className="project__description"> {project.description} </p>
-
+                                <p className='project__tools'><b>{project.tools}</b></p>
                                 <div className="project__links">
                                     <Link href={project.linkToCode} >
                                         <a target='_blank' className='project__link-button btn-one' >

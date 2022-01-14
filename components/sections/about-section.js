@@ -14,7 +14,7 @@ const AboutSection = () => {
 
                 <div className='about__data' >
                     <p className='about__description' >
-                    Hello Dear, I am Amine Elkhalidy, a front end developer and designer, from early age i found that my passion is all around Technology, that why since the last years, i tried to work hard on myself for growing up my development potentials to delivery quality work.
+                    Hello Dear, I am Amine Elkhalidy, a front end developer and designer, from early age i found that my passion is all around Technology, that why since the last years, i tried to work hard on myself to develop my skills in programming industry in order to deliver quality work.
                     </p>
                 </div>
             </div>
